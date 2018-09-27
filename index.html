@@ -63,10 +63,6 @@
                     <div id="myDropdown" class="dropdown-content">
                         <div class="vectorBlock"></div>
                         <div>
-                            <div class="phoneNumbersBlock publicBlock">
-                                <img src="img/phone.png" alt="phone">
-                                <span class="dropbtn">(044)345-40-42</span>
-                            </div>
                             <div class="phoneNumbersBlock">
                                 <img src="img/mtc.png" alt="mtc">
                                 <span>(099) 445-54-18</span>
@@ -394,6 +390,7 @@
                             <div class="clearfix"></div>
                         </div>
                     </div>
+
                     <div class="phone_dropdown">
                         <div class="footerDropDown">
                             <a href="#" class="fb hiddenBlock"><img src="img/facebook.png" alt="facebook"></a>
@@ -439,9 +436,6 @@
             } else {
                 document.getElementById("myDropdown").classList.toggle("show");
             }
-        };
-
-        window.onclick = function(event) {
             if (!event.target.matches('.phone_shape')) {
                 document.getElementById("myDropdownNext").classList.remove('show');
             } else {
