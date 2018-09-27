@@ -1,0 +1,184 @@
+@media screen and (max-width:768px) {
+    .privateBlock {
+        display: none;
+    }
+
+    #burger:checked + .burger + .navbar-row {
+        display: block;
+        margin-top: 35px;
+    }
+
+    .basketQuantity {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .firstSec {
+        border: none;
+    }
+
+    .basePic {
+        display: none;
+    }
+
+    .titleName {
+        font-weight: 100;
+        font-size: 19px;
+        margin: 18px auto;
+        color: #3A4047;
+    }
+
+    .nameComp {
+        font-size: 35px;
+    }
+
+    .whiteLine {
+        display: none;
+    }
+
+    .delivery {
+        color: #3A4047;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .summary {
+        display: flex;
+        justify-content: flex-start;
+        margin: 0;
+    }
+
+    .footerDistanceSum {
+        padding: 0px;
+        margin: 0 28px 10px 0;
+    }
+
+    .phone_dropdown {
+        margin-top: -10px;
+    }
+
+    .contacts {
+        top: -169px;
+        right: 50px;
+    }
+
+    .basePic {
+        height: auto;
+    }
+
+    .asButton {
+        margin: 0 auto 20px;
+    }
+
+    .companysRight {
+        top: 35px;
+        left: 0;
+    }
+
+    .line {
+        border-color: white;
+    }
+
+    .navbar-row {
+        -webkit-box-shadow: 0px 3px 51px -4px rgba(0,0,0,0.23);
+        -moz-box-shadow: 0px 3px 51px -4px rgba(0,0,0,0.23);
+        box-shadow: 0px 3px 51px -4px rgba(0,0,0,0.23);
+        margin-top: 10px;
+    }
+
+    .navbar-row {
+        display: none;
+    }
+
+    .mobile_show {
+        display: block;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .publicBlock {
+        display: none;
+    }
+
+    .contacts {
+        right: 71px;
+    }
+
+    .borderBox {
+        margin: 0 27px;
+    }
+
+    .officeProduct {
+        margin-top: 13px;
+    }
+
+    .burger {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+    .privateButton {
+        display: none;
+    }
+
+    .nameComp {
+        font-size: 25px;
+    }
+
+    .typography {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .borderCabinet {
+        padding: 0;
+    }
+
+    .titleName {
+        font-size: 22px;
+        margin-top: 33px;
+    }
+
+    .delivery {
+        font-size: 16px;
+    }
+
+    .asButton {
+        margin: 0 auto 39px;
+    }
+
+    .line {
+        padding: 0 21px;
+    }
+
+    .dropbtn {
+        padding: 10px 3px 10px 16px;
+        font-size: 14px;
+    }
+
+    .phone_shape {
+        width: 16px;
+        height: 16px;
+    }
+
+    .hiddenBlock {
+        display: none;
+    }
+
+    .logoFont a img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .topAlign {
+        margin-top: 7px;
+    }
+
+    .companysRight {
+        top: 102px;
+        left: 17px;
+    }
+
+}
+

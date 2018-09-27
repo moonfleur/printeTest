@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Printe</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header class="container header">
+        <div class="row">
+            <div class="col-md-3 topAlign">
+                <div class="logos">
+                    <div class="logoFont ">
+                        <a href="#">
+                            <img src="img/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="logoPlace">
+                        <a href="#">
+                            <p class="nameComp">PRINTE</p>
+                            <p class="typography">Ваша типография</p>
+                        </a>
+                    </div>
+
+                    <input type="checkbox" id="burger">
+                    <label class='burger' for="burger">
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                        <span class="burger-line"></span>
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-3 privateBlock">
+                <p class="about">Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!</p>
+                <p class="time">Работаем с 9 до 18, вс и сб выходные</p>
+            </div>
+            <div class="col-md-2 borderCabinet privateBlock">
+                <a href="#">
+                    <img src="img/user.png" alt="user">
+                    <span class="ownCabinet">Личный кабинет</span>
+                </a>
+            </div>
+            <div class="col-md-3 basketQuantity">
+                <div>
+                    <a href="mailto:maket@test-vertka.ua" class="ownCabinet privateBlock">maket@test-vertka.ua</a>
+                </div>
+
+                <div class="phone_dropdown privateBlock">
+                    <div>
+                        <a href="#" class="fb hiddenBlock">
+                            <img src="img/facebook.png" alt="facebook">
+                        </a>
+                        <span class="hiddenBlock">
+                            <img src="img/phone.png" alt="phone">
+                        </span>
+                        <span class="dropbtn">(044)345-40-42</span>
+                        <span class="phone_shape"></span>
+                    </div>
+                    <div id="myDropdown" class="dropdown-content">
+                        <div class="vectorBlock"></div>
+                        <div>
+                            <div class="phoneNumbersBlock publicBlock">
+                                <img src="img/phone.png" alt="phone">
+                                <span class="dropbtn">(044)345-40-42</span>
+                            </div>
+                            <div class="phoneNumbersBlock">
+                                <img src="img/mtc.png" alt="mtc">
+                                <span>(099) 445-54-18</span>
+                            </div>
+                            <div class="phoneNumbersBlock">
+                                <img src="img/kyivstar.png" alt="kyivstar">
+                                <span>(096) 497-78-03</span>
+                            </div>
+                            <div class="phoneNumbersBlock">
+                                <img src="img/life.png" alt="life">
+                                <span>(063) 435-16-81</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1 privateBlock">
+                <a href="#">
+                    <img src="img/shopping-cart.png" alt="shopping-cart" class="basket">
+                </a>
+                <span class="circle">3</span>
+            </div>
+        </div>
+    </header>
+
+    <section class="firstSec">
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row navbar-row" id="navbar-row">
+                    <div class="col-md-11">
+                        <div class="row">
+                            <div class="col-md-auto borders">
+                                <a href="#" class="menuText line">ГЛАВНАЯ</a>
+                            </div>
+                            <div class="col-md-auto borders">
+                                <a href="#" class="menuText line">ПРОДУКЦИЯ</a>
+                            </div>
+                            <div class="col-md-auto borders">
+                                <a href="#" class="menuText line">ДОСТАВКА И ОПЛАТА</a>
+                            </div>
+                            <div class="col-md-auto borders">
+                                <a href="#" class="menuText line">НОВОСТИ</a>
+                            </div>
+                            <div class="col-md-auto borders">
+                                <a href="#" class="menuText line">БАЗА ЗНАНИЙ</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-1 bordersForSearch privateBlock wrap">
+                        <a href="#">
+                            <img src="img/search.png" alt="search" class="searchIcon" onclick="toggle(document.getElementById('input'))">
+                            <input type="text" id="input" class="input" placeholder="Поиск">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 basePic privateBlock">
+                    <h1 class="titleName">Оперативная печать полиграфии от 1 дня!</h1>
+                    <hr class="whiteLine">
+                    <h6 class="delivery">Доставка в любой город Украины</h6>
+                    <a href="#" class="asButton">Сделать заказ</a>
+                </div>
+                <div class="col-md-12 publicBlock">
+                    <h1 class="titleName">Оперативная печать полиграфии от 1 дня!</h1>
+                    <hr class="whiteLine">
+                    <h6 class="delivery">Доставка в любой город Украины</h6>
+                    <a href="#" class="asButton">Сделать заказ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="product">Продукция</h1>
+                    <div class="callbackForm privateBlock privateButton">
+                        <img src="img/wphone.png" alt="whitephone">
+                        <p>
+                            <a href="#openModalWindow" onmousedown="viewDivWindow()">Перезвоните мне сейчас!</a>
+                        </p>
+                        <div id="openModalWindow" class="modalbgWindow">
+                            <div class="dialog">
+                                <a href="#close" class="closeButton" onmousedown="closeModalWindow()">X</a>
+                                <form>
+                                    <h6 class="callInfo">Введите Ваше имя и номер телефона и мы Вам перезвоним!</h6>
+                                    <input type="text" value="Имя" class="inputInfo" onfocus="if (this.value == 'Имя') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Имя';}">
+                                    <input type="text" value="Телефон" class="inputInfo" onfocus="if (this.value == 'Телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Телефон';}">
+                                    <input type="submit" value="Перезвоните мне" class="buttonSubmit">
+                                </form>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row aligning">
+                <div class="col-md-3 allServices">
+                    <div class="colImg">
+                        <img src="img/blank-page.png" alt="blank-page">
+                    </div>
+                    <div class="officeProduct">
+                        <h6 class="nameThing">Офисная продукция</h6>
+                        <ul class="listItem">
+                            <li>
+                                <a href="#">Визитки</a>
+                            </li>
+                            <li>
+                                <a href="#">Конверты</a>
+                            </li>
+                            <li>
+                                <a href="#">Папки</a>
+                            </li>
+                            <li>
+                                <a href="#">Книги</a>
+                            </li>
+                            <li>
+                                <a href="#">Блокноты</a>
+                            </li>
+                            <li>
+                                <a href="#">Фирменные бланки</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-4 allServices">
+                    <div class="colImg">
+                        <img src="img/road-map.png" alt="road-map">
+                    </div>
+                    <div class="officeProduct">
+                        <h6 class="nameThing">Рекламная продукция</h6>
+                        <ul class="listItem">
+                            <li>
+                                <a href="#">Листовки</a>
+                            </li>
+                            <li>
+                                <a href="#">Флаера</a>
+                            </li>
+                            <li>
+                                <a href="#">Буклеты</a>
+                            </li>
+                            <li>
+                                <a href="#">Календари</a>
+                            </li>
+                            <li>
+                                <a href="#">Блокноты</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="listsNear">
+                        <ul>
+                            <li class="listsHeights">
+                                <a href="#">Плакаты</a>
+                            </li>
+                            <li class="listsHeights">
+                                <a href="#">Баннеры</a>
+                            </li>
+                            <li class="listsHeights">
+                                <a href="#">Магниты</a>
+                            </li>
+                            <li class="listsHeights">
+                                <a href="#">Наклейки</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 allServices">
+                    <div class="colImg">
+                        <img src="img/e-reader.png" alt="e-reader">
+                    </div>
+                    <div class="officeProduct">
+                        <h6 class="nameThing">Для бизнеса</h6>
+                        <ul class="listItem">
+                            <li>
+                                <a href="#">Каталоги</a>
+                            </li>
+                            <li>
+                                <a href="#">Журналы</a>
+                            </li>
+                            <li>
+                                <a href="#">Дисконтные карты</a>
+                            </li>
+                            <li>
+                                <a href="#">Бейджи</a>
+                            </li>
+                            <li>
+                                <a href="#">Гарантийные наклейки</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="product">О нас</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 class="print">Оперативная печать полиграфии от 1 дня!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="paragraphAboutComp">Перед долгим заплывом намажьтесь солнцезащитным кремом. Вода не спасает от вредного излучения, оно проникает и на глубину 1 м. Прежде чем отправиться на пляж, съешьте что-нибудь солененькое или выпейте чай с лимоном. Считается, что тем самым вы предотвратите потерю важных минеральных веществ, которые покидают тело вместе с потом, а загар при этом ляжет ровнее. Находясь на солнце, следует больше двигаться — плавать, делать гимнастику, играть в мяч и т.д. Лучше ходить босиком, чем в тапочках. Не рекомендуется покрывать ногти лаком, пусть они отдохнут и получат солнечные лучи и воздух.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="firstSec">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="product">Новости</h1>
+                </div>
+            </div>
+            <div class="row news">
+                <div class="col-md-3 borderBox">
+                    <div>
+                        <h6 class="date">14 марта 2018</h6>
+                        <a href="#" class="newCol">Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</a>
+                    </div>
+                </div>
+                <div class="col-md-3 borderBox">
+                    <div>
+                        <h6 class="date">14 марта 2018</h6>
+                        <a href="#" class="newCol">Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</a>
+                    </div>
+                </div>
+                <div class="col-md-3 borderBox">
+                    <div>
+                        <h6 class="date">14 марта 2018</h6>
+                        <a href="#" class="newCol">Оазисное земледелие поднимает культурный субэкваториальный климат, там же можно с палками</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <a href="#" class="seeAllNews">Смотреть все новости</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 topAlign">
+                    <div class="logos">
+                        <div class="logoFont ">
+                            <a href="#">
+                                <img src="img/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <div class="logoPlace">
+                            <a href="#">
+                                <p class="nameComp">PRINTE</p>
+                                <p class="typography">Ваша типография</p>
+                            </a>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                    <p class="allRights">2018 - Все права защищены</p>
+                </div>
+                <div class="col-md-2 privateBlock">
+                    <p class="aboutNext">Качественная оперативная цифровая, широкоформатная и сувенирная полиграфия!</p>
+                    <p class="aboutNext">Работаем с 9 до 18, вс и сб выходные</p>
+                </div>
+                <div class="col-md-4 summary">
+                    <div>
+                        <ul class="footerDistanceSum">
+                            <li class="footerSum">
+                                <a href="#">Главная</a>
+                            </li>
+                            <li class="footerSum">
+                                <a href="#">Продукция</a>
+                            </li>
+                            <li class="footerSum">
+                                <a href="#">Доставка и оплата</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="footerDistanceSum">
+                            <li class="footerSum">
+                                <a href="#">Новости</a>
+                            </li>
+                            <li class="footerSum">
+                                <a href="#">База знаний</a>
+                            </li>
+                            <li class="footerSum">
+                                <a href="#">О нас</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="companysRight publicBlock">
+                        <img src="img/image.png" alt="glyanets">
+                        <span>Глянец - разработка сайтов</span>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="callback privateBlock privateButton">
+                        <img src="img/wphone.png" alt="whitephone">
+                        <p>
+                            <a href="#openModal" onmousedown="viewDiv()">Перезвоните мне сейчас!</a>
+                        </p>
+                        <div id="openModal" class="modalbg">
+                            <div class="dialog">
+                                <a href="#close" class="closeButton" onmousedown="closeModal()">X</a>
+                                <form>
+                                    <h6 class="callInfo">Введите Ваше имя и номер телефона и мы Вам перезвоним!</h6>
+                                    <input type="text" value="Имя" class="inputInfo" onfocus="if (this.value == 'Имя') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Имя';}">
+                                    <input type="text" value="Телефон" class="inputInfo" onfocus="if (this.value == 'Телефон') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Телефон';}">
+                                    <input type="submit" value="Перезвоните мне" class="buttonSubmit">
+                                </form>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="phone_dropdown">
+                        <div class="footerDropDown">
+                            <a href="#" class="fb hiddenBlock"><img src="img/facebook.png" alt="facebook"></a>
+                            <span class="hiddenBlock">
+                                <img src="img/phone.png" alt="phone">
+                            </span>
+                            <span class="dropbtn">(044)345-40-42</span>
+                            <span class="phone_shape"></span>
+                        </div>
+                        <div id="myDropdownNext" class="dropdown-content">
+                            <div class="vectorBlock"></div>
+                            <div>
+                                <div class="phoneNumbersFooter">
+                                    <img src="img/mtc.png" alt="mtc">
+                                    <span>(099) 445-54-18</span>
+                                </div>
+                                <div class="phoneNumbersFooter">
+                                    <img src="img/kyivstar.png" alt="kyivstar">
+                                    <span>(096) 497-78-03</span>
+                                </div>
+                                <div class="phoneNumbersFooter">
+                                    <img src="img/life.png" alt="life">
+                                    <span>(063) 435-16-81</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#" class="contacts">Контакты</a>
+                    <div class="companysRight privateBlock">
+                        <img src="img/image.png" alt="glyanets">
+                        <span>Глянец - разработка сайтов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script>
+        window.onclick = function(event) {
+            if (!event.target.matches('.phone_shape')) {
+                document.getElementById("myDropdown").classList.remove('show');
+            } else {
+                document.getElementById("myDropdown").classList.toggle("show");
+            }
+        };
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.phone_shape')) {
+                document.getElementById("myDropdownNext").classList.remove('show');
+            } else {
+                document.getElementById("myDropdownNext").classList.toggle("show");
+            }
+        };
+
+        document.getElementById('burger').addEventListener('change', function () {
+            document.getElementById("navbar-row").classList.toggle("mobile_show");
+        });
+
+        function viewDiv() {
+            document.getElementById("openModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("openModal").style.display = "none";
+        }
+
+        function viewDivWindow() {
+            document.getElementById("openModalWindow").style.display = "block";
+        }
+
+        function closeModalWindow() {
+            document.getElementById("openModalWindow").style.display = "none";
+        }
+
+        function toggle(el)
+        {
+            el.style.display = (el.style.display == 'none') ? 'block' : 'none';
+        }
+    </script>
+</body>
+</html>
